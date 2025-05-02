@@ -60,6 +60,17 @@ printElements(listOf("sumit","rohan","shyam"))
 
 
 
-// create generics class 
+// create generics class  @anotation hota hain uniqly identify krne ke liye hota hain.
+class Box <T>(private var content:T){
+    // @JvmName("getContent")
+    fun getContent():T{
+        return content
+    }
+}
+
+val intBox=Box(123)
+val stringBox=Box("hello")
+println(intBox.getContent())
+println(stringBox.getContent())
 
 }
