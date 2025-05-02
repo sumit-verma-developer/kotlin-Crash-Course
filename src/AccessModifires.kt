@@ -14,6 +14,20 @@ internal class InternalClass{
     internal val internalInfo:String="Internal Info"
 }
 
+// private fun topLevelPrivate
+// protected
+
+
+
+// inheritance wala feture chate toh use kro open
+open class ParentClass{
+    protected val protectedInfo:String="protected"
+}
+
+
+class ChildClass:ParentClass(){
+    fun getProtectedInfo
+}
 
 
 
@@ -23,4 +37,5 @@ println(publicObj.publicInfo) // Accessible
 println(publicObj.showPrivateInfo()) 
 val internalObj=InternalClass()
 println(internalObj.internalInfo) 
+
 }
