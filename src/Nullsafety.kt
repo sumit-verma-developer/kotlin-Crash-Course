@@ -16,9 +16,20 @@ fun main(){
     val lengthOrZero:Int=name?.length?:0
     println(lengthOrZero)
     
-    
+
     // safe casts
     val obj:Any=" i am string"
     val str:String?=obj as? String
     println(str)
+
+
+    // Exception Handling
+    try {
+        
+    }
+    catch(Exception e) {
+        
+    }finally{
+        
+    }
 }
