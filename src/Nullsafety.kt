@@ -25,11 +25,12 @@ fun main(){
 
     // Exception Handling
     try {
-        
+        println("Exception")
     }
-    catch(Exception e) {
-        
-    }finally{
-        
+    catch(Exception) {
+        println("Exception")
+    }
+    finally{
+        println("Finally")
     }
 }
